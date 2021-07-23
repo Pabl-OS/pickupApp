@@ -1,0 +1,34 @@
+
+ion-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+   
+}
+ion-list div {
+ 
+   max-width: 500px;
+  
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 20px;
+    }
+    ion-button {
+        background-color: var(--ion-color-primary);
+        --color: rgb(255, 255, 255)!important;
+        font-size: 18px;
+        border-radius: 50px;
+    }
+    ion-img ,  div {
+        margin-top: 10px;
+       margin-left: auto;
+       margin-right: auto;
+        text-align: center;
+        width: 80%;
+        max-width: 500px;
+    }

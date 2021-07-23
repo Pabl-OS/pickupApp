@@ -24,3 +24,45 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+ion-content{
+    --ion-background-color: #FBFBFB!important;
+}
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+ion-item {
+    --highlight-color-valid: transparent;
+    --highlight-color-invalid: transparent;
+    --highlight-color-focused: var(--ion-color-light);
+  }
+  ion-item {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    height: 100%;
+    --border-width: 0;  
+    --background: rgb(255, 255, 255)!important;  
+    box-shadow:  5px 5px 13px #f7f7f7,
+    -5px -5px 13px #ffffff;
+    ion-input {
+      font-size: 16px;
+      --padding-top: 15px;
+      --padding-bottom: 15px;
+      --padding-start: 5px;
+    }
+  }
+  span a {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  ion-toolbar {
+    --font-weight: 700;
+    --font-size: 18px;
+    color: var(--ion-color-primary);
+    --ion-background-color: #FBFBFB!important;
+  }

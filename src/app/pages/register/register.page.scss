@@ -1,0 +1,23 @@
+ion-list{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ion-list div {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+}
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 30px;
+    }
+ion-button {
+    background-color: var(--ion-color-primary);
+    --color: rgb(255, 255, 255)!important;
+    font-size: 18px;
+    border-radius: 50px;
+}
