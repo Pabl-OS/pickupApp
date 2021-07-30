@@ -1,21 +1,30 @@
-<ion-toolbar mode="md"  class="ion-text-end">
-  <ion-title>Logo</ion-title>
-</ion-toolbar>
 <ion-content>
   <ion-list>
-  <div>
-    <h1 class="title">Compra en linea, Olvidate de las filas.</h1>
 
-  <ion-item>
-    <ion-input clearInput type="email"  placeholder="Ej. Farmacias Guadalajara" mode="ios"></ion-input>
-  </ion-item>
-  
-  <ion-button  expand="block" fill="clear" mode="ios" shape="round">Buscar Aqui</ion-button>
-  <span>¿Ya tienes cuenta? <a href="asdasd">Inicia sesión</a></span> 
+    
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12"  >
+        <h1>Logo</h1>
+      </ion-col>
+      <ion-col size="12"  sizeMd="6" sizeLg="6" sizeXl="4" >
+        <div>
+          <h1 class="title">Compra en linea, Olvidate de las filas.</h1>
+          
+          <ion-item>
+            <ion-input clearInput type="email"  placeholder="Ej. Farmacias Guadalajara" mode="ios"></ion-input>
+          </ion-item>
+          
+          <ion-button  expand="block" fill="clear" mode="ios" shape="round">Buscar Aqui</ion-button>
+          <span>¿Ya tienes cuenta? <a [routerLink]="['/login']" routerLinkActive="router-link-active" >Inicia sesión</a></span> 
+        </div>
+      </ion-col>
+<ion-col size="12" sizeMd="6"  sizeLg="6" sizeXl="8">
   <div>
     <ion-img src="./assets/selection.svg"></ion-img>
   </div>
-</div>
-
+</ion-col>
+</ion-row>
+</ion-grid>
 </ion-list>
 </ion-content>

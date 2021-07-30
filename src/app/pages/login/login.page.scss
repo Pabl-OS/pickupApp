@@ -5,10 +5,10 @@ ion-list{
     align-items: center;
     justify-content: center;
 }
-ion-list div {
+ion-list  {
     width: 100%;
-    max-width: 600px;
-    padding: 30px;
+  
+    padding: 30px!important;
 }
 .title {
     font-weight: 700;
@@ -22,11 +22,12 @@ ion-button {
     font-size: 18px;
     border-radius: 50px;
 }
-ion-img ,  div {
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 80%;
-    max-width: 500px;
+.image{
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image ion-img{
+ width: 100%;   
 }
