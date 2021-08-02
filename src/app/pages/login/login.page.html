@@ -11,19 +11,21 @@
         <h1 class="title">Log-in</h1>
         <ion-label  >Email</ion-label>
         <ion-item >
-          <ion-input clearInput type="email" mode="ios"></ion-input>
+          <ion-input clearInput type="email" mode="md"></ion-input>
+          <ion-icon name="at-circle" slot="start" class="ion-no-padding"></ion-icon>
         </ion-item>
         <ion-label>Contraseña</ion-label>
         <ion-item>
-          <ion-input clearInput  type="password" mode="ios"></ion-input>
+          <ion-input clearInput  type="password" mode="md"></ion-input>
+          <ion-icon name="lock-closed" slot="start"></ion-icon>
         </ion-item>
-        <ion-button  expand="block"  fill="clear" mode="ios" shape="round">Iniciar </ion-button>
+        <ion-button  expand="block"  fill="clear" mode="ios" [routerLink]="['/menu']" shape="round">Iniciar </ion-button>
         <span>¿No tienes cuenta?<a [routerLink]="['/register']" routerLinkActive="router-link-active" > registrate aqui.</a></span> 
   
       </ion-col>
       
       
-      <ion-col class="image" size="12" sizeMd="6"  sizeLg="6" sizeXl="8">  
+      <ion-col  class="image" size="12" sizeMd="6"  sizeLg="6" sizeXl="8">  
           <ion-img src="./assets/login.svg"></ion-img>
       </ion-col>
    

@@ -30,7 +30,7 @@ ion-content{
     --ion-background-color: #FBFBFB!important;
 }
 *{
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 ion-item {
@@ -39,6 +39,7 @@ ion-item {
     --highlight-color-focused: var(--ion-color-light);
   }
   ion-item {
+    padding-right: 0px!important;
     margin-top: 10px;
     margin-bottom: 15px;
     border-radius: 50px;
@@ -47,10 +48,10 @@ ion-item {
     box-shadow:  5px 5px 13px #f7f7f7,
     -5px -5px 13px #ffffff;
     ion-input {
-      font-size: 16px;
+      font-size: 18px!important;
       --padding-top: 15px;
       --padding-bottom: 15px;
-      --padding-start: 5px;
+      
     }
   }
   span a {

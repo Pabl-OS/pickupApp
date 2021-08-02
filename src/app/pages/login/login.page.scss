@@ -8,7 +8,7 @@ ion-list{
 ion-list  {
     width: 100%;
   
-    padding: 30px!important;
+    padding: 20px!important;
 }
 .title {
     font-weight: 700;
@@ -20,6 +20,7 @@ ion-button {
     background-color: var(--ion-color-primary);
     --color: rgb(255, 255, 255)!important;
     font-size: 18px;
+    height: 50px;
     border-radius: 50px;
 }
 .image{

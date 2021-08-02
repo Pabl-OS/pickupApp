@@ -22,6 +22,18 @@ const routes: Routes = [
   {
     path: 'selection-store',
     loadChildren: () => import('./pages/selection-store/selection-store.module').then( m => m.SelectionStorePageModule)
+  },
+  {
+    path: 'menu',
+    loadChildren: () => import('./pages/menu/menu.module').then( m => m.MenuPageModule)
+  },
+  {
+    path: 'about',
+    loadChildren: () => import('./pages/about/about.module').then( m => m.AboutPageModule)
+  },
+  {
+    path: 'orders',
+    loadChildren: () => import('./pages/orders/orders.module').then( m => m.OrdersPageModule)
   }
 ];
 
