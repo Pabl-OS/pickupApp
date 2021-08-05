@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: 'https://vendido.shop/api/'
+  apiUrl: 'http://localhost:4000/api'
 };
 
 /*

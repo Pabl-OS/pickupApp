@@ -24,6 +24,11 @@ export class MenuComponent implements OnInit {
        title : "Acerda de" ,
        path : "/about",
        icon:"heart"
+       },
+       {
+       title : "Ajustes" ,
+       path : "/about",
+       icon:"heart"
        }
        
      

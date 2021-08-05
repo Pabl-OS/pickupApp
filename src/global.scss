@@ -70,10 +70,15 @@ ion-item {
   .title { 
           font-size: 35px;
           font-weight: 600;
+          margin-bottom: 15px;
           }
   ion-card{
-    border-radius: 46px;
+    border-radius: 15px;
     background: #ffffff;
     box-shadow:  6px 6px 18px #e6e6e6,
              -6px -6px 18px #ffffff;
   }
+  .border{ 
+        --border-radius: 150px!important;      
+        
+          }

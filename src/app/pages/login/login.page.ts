@@ -8,12 +8,13 @@ import { MenuComponent } from '../../components/menu/menu.component';
   styleUrls: ['./login.page.scss'],
 })
 export class LoginPage implements OnInit {
-
+  
+  // login = new FormControl('');
   constructor(private authS : AuthService) { }
 
   ngOnInit() {
-    this.authS.onLogin()
-                      .subscribe(resp=>console.log(resp));
+    // this.authS.onLogin()
+    //                   .subscribe(resp=>console.log(resp));
       
     
   }

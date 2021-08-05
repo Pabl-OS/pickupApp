@@ -9,7 +9,8 @@ export class AuthService {
   apiUrl:string = environment.apiUrl;
   constructor(private http: HttpClient ) { }
   onLogin(){
-    return this.http.get(`${this.apiUrl}/get_suc.php`);
+    // return this.http.get(`${this.apiUrl}/sucursales`);
+    return null;
   }
 
   
