@@ -10,6 +10,7 @@ import { OrdersPage } from './orders.page';
 import { ComponentsModule } from '../../components/components.module';
 
 @NgModule({
+  
   imports: [
     CommonModule,
     FormsModule,

@@ -2,16 +2,11 @@
 
 
 <ion-content class="ion-padding">
-
-
-
   <div class="ion-padding-start">
-    <h2 class="ion-no-margin title-store ">LOCAL O ESTABLECIMIENTO </h2>
-    <span class="direction">direccion del lugar o establecimiento...</span>
-    </div>
-  <ion-slides pager="true" [options]="slideOpts" class="ion-padding ">
+  </div>
+  <ion-slides pager="true" [options]="slideOpts">
     <ion-slide> 
-    <ion-img src="https://vendido.shop/adp/inicio/images/bannerg_18.png"></ion-img>
+      <ion-img src="./assets/delivery.jpg"></ion-img>
     </ion-slide>
     <ion-slide >
       <!-- <ion-img  class="border" src="https://vendido.shop/adp/inicio/images/bannerg_6.jpe"></ion-img> -->
@@ -21,72 +16,70 @@
     </ion-slide>
   </ion-slides>
   
-
-
+  <section class="ion-padding">
+    <h2 class="ion-no-margin title-store">LOCAL O ESTABLECIMIENTO </h2>
+    <span class="direction ">direccion del lugar o establecimiento...</span>
+  </section>
+  
   <ion-grid >
+
     <ion-row class="ion-no-padding ion-no-margin">
       <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3" class="ion-no-padding ion-no-margin">
-        <ion-card class="ion-no-padding ion-no-margin">
-      <ion-card-header>
-        <ion-card-title class="ion-align-items-center">
-         <h5>
-           CATEGORIA 1
-         </h5>
-        </ion-card-title>
-      </ion-card-header>
-
-  <ion-card-content>
-    This is content, without any paragraph or header tags,
-    within an ion-card-content element.
-  </ion-card-content>
-</ion-card>
-      </ion-col>
-      <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3">
-        <ion-card class="ion-no-padding ion-no-margin">
-   <ion-card-header>
-        <ion-card-title class="ion-align-items-center">
-         <h5>
-           CATEGORIA 1
-         </h5>
-        </ion-card-title>
-      </ion-card-header>
-  <ion-card-content>
-    This is content, without any paragraph or header tags,
-    within an ion-card-content element.
-  </ion-card-content>
-</ion-card>
-      </ion-col>
-      <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3">
-        <ion-card class="ion-no-padding ion-no-margin">
-          <ion-card-header>
+        <ion-card class="ion-padding" [routerLink]="['/cart']"  >
+          <ion-card-header  class="ion-no-padding">
             <ion-card-title class="ion-align-items-center">
-             <h5>
-               CATEGORIA 1
-             </h5>
+              <h5 class="ion-text-center" > DULCES </h5>
             </ion-card-title>
           </ion-card-header>
-
-  <ion-card-content>
-    This is content, without any paragraph or header tags,
-    within an ion-card-content element.
-  </ion-card-content>
-</ion-card>
+          <ion-card-content>
+            <ion-img src="./assets/dulce.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
       </ion-col>
-      <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3">
-        <ion-card class="ion-no-padding ion-no-margin">
-          <ion-card-header>
+   
+      <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3" class="ion-no-padding ion-no-margin">
+        <ion-card class="ion-padding">
+          <ion-card-header class="ion-no-padding">
             <ion-card-title class="ion-align-items-center">
-             <h5>
-               CATEGORIA 1
-             </h5>
+              <h5 class="ion-text-center" > REFRESCOS </h5>
+            
             </ion-card-title>
           </ion-card-header>
-  <ion-card-content>
-    This is content, without any paragraph or header tags,
-    within an ion-card-content element.
-  </ion-card-content>
-</ion-card>
+          <ion-card-content>
+           <ion-img src="./assets/sodas.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
       </ion-col>
+   
+      <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3" class="ion-no-padding ion-no-margin">
+        <ion-card class="ion-padding">
+          <ion-card-header class="ion-no-padding">
+            <ion-card-title class="ion-align-items-center">
+              <h5 class="ion-text-center" > HELADO </h5>
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-img src="./assets/helado.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+   
+      <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3" class="ion-no-padding ion-no-margin">
+        <ion-card class="ion-padding">
+          <ion-card-header class="ion-no-padding">
+            <ion-card-title class="ion-align-items-center">
+              <h5 class="ion-text-center" > PASTELES </h5>
+            
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+           <ion-img src="./assets/pastel.png"></ion-img>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+   
+   
+   
     </ion-row>
   </ion-grid>  
   

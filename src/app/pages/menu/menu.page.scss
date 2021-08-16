@@ -10,8 +10,16 @@ ion-card{
 .title-store {
   color: var(--ion-color-primary);
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
 }
  .direction {
   font-size: 20px!important; 
+ }
+ @media (max-width: 765px ) {
+  .title-store {
+    font-size: 20px;
+  }
+   .direction {
+    font-size: 15px!important; 
+   } 
  }

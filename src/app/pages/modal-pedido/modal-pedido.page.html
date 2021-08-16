@@ -1,9 +1,122 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>modal-pedido</ion-title>
+<ion-header class="ion-no-border">
+  <ion-toolbar class="ion-no-border">
+    <ion-buttons slot="end">
+    <ion-icon slot="end" name="close" (click)="close()" color="danger"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
+  
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-no-padding ion-no-margin">
+
+
+  <h1 class="title ion-padding-start">Detalles del Pedido</h1>
+
+<div class="ion-padding-top">
+<h2 class="ion-text-center">ESTABLECIMIENTO</h2>
+<ion-grid >
+<ion-row>
+  <ion-col size="12">Fecha compra</ion-col>
+</ion-row>
+<ion-row>
+  <ion-col size="12">Estatus del pedido</ion-col>
+</ion-row>
+  <ion-row>
+    <ion-col size="6">Id Ticket</ion-col>
+    <ion-col size="6" class="ion-text-end">1324</ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" >Precio Total</ion-col>
+    <ion-col size="6"  class="ion-text-end price">9999.9999</ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="6" >Id Pago</ion-col>
+    <ion-col size="6"  class="ion-text-end">QWERTY123456</ion-col>
+  </ion-row>
+</ion-grid>
+
+
+</div>
+
+<ion-grid class="ion-no-margin ion-padding tabla">
+  <ion-row class="title-table">
+    <ion-col>Nombre</ion-col>
+    <ion-col>Cantidad</ion-col>
+    <ion-col>P. unitario</ion-col>
+    <ion-col>Subtotal</ion-col>
+  </ion-row>
+  <ion-row class="table-content">
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+ 
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+<!--   
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row>
+  
+  <ion-row >
+    <ion-col>Producto prueba</ion-col>
+    <ion-col>9999</ion-col>
+    <ion-col>$9999.99</ion-col>
+    <ion-col>$99999.99</ion-col>
+  </ion-row> -->
+
+</ion-grid>
 
 </ion-content>

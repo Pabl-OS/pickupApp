@@ -37,14 +37,6 @@ const routes: Routes = [
   {
     path: 'cart',
     loadChildren: () => import('./pages/cart/cart.module').then( m => m.CartPageModule)
-  },
-  {
-    path: 'modal-pedido',
-    loadChildren: () => import('./pages/modal-pedido/modal-pedido.module').then( m => m.ModalPedidoPageModule)
-  },
-  {
-    path: 'modal-sucursales',
-    loadChildren: () => import('./pages/modal-sucursales/modal-sucursales.module').then( m => m.ModalSucursalesPageModule)
   }
 ];
 
