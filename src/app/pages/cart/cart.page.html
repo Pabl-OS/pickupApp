@@ -1,8 +1,5 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>cart</ion-title>
-  </ion-toolbar>
-</ion-header>
+ <app-header></app-header>
+
 
 <ion-content>
 
@@ -11,50 +8,133 @@
   
   
   <ion-row>
-    <ion-col size="12" sizeMd="8" >
+    <ion-col size="12" sizeMd="8"  >
       <ion-list>
-        <ion-item>
-          <ion-row>
-            <ion-col size="4"> 
+
+
+        <ion-item class="content_item" lines="none">
+          <ion-row class="card ion-no-margin">
+            <ion-col size="3" sizeMd="2" class="c_img" > 
              <ion-img src="./assets/sodas.png"></ion-img>    
             </ion-col>
-            <ion-col size="8"> 
-             <h4>Nombre Producto</h4>
-             <ion-button >
-               <ion-icon slot="icon-only" name="add"></ion-icon>
+            <ion-col size="6" sizeMd="7" class="ion-text-center c_item"> 
+             <h5>Nombre Producto tacos ejemplo</h5>
+             <ion-button class="remove" >
+               <ion-icon slot="icon-only" name="remove"></ion-icon>
              </ion-button>  
-             1234s
-             <ion-button >
+              <h5 class="conter_n ion-padding">129</h5>
+             <ion-button class="add" >
                <ion-icon slot="icon-only" name="add"></ion-icon>
              </ion-button>  
             </ion-col>
+
+            <ion-col size="3" sizeMd="3" >
+              <div class="ion-text-end" >
+                <ion-button  class="delete" fill="clear" >
+                  <ion-icon slot="icon-only"  name="close" ></ion-icon>
+                </ion-button>  
+              </div>
+              <div class="ion-text-left" >
+                <h5 class="c_subtotal">$12345</h5>
+               </div>
+             
+            </ion-col>
           </ion-row>
+          
         </ion-item>
+
+        <ion-item class="content_item" lines="none" >
+          <ion-row class="card ion-no-margin">
+            <ion-col size="3" sizeMd="2" class="c_img" > 
+             <ion-img src="./assets/sodas.png"></ion-img>    
+            </ion-col>
+            <ion-col size="6" sizeMd="7" class="ion-text-center c_item"> 
+             <h5>Nombre Producto tacos ejemplo</h5>
+             <ion-button class="remove" >
+               <ion-icon slot="icon-only" name="remove"></ion-icon>
+             </ion-button>  
+              <h5 class="conter_n ion-padding">129</h5>
+             <ion-button class="add" >
+               <ion-icon slot="icon-only" name="add"></ion-icon>
+             </ion-button>  
+            </ion-col>
+
+            <ion-col size="3" sizeMd="3" >
+              <div class="ion-text-end " >
+                <ion-button  class="delete" fill="clear" >
+                  <ion-icon slot="icon-only"  name="close" ></ion-icon>
+                </ion-button>  
+              </div>
+              <div class="ion-text-left" >
+                <h5 class="c_subtotal">$12345</h5>
+               </div>
+             
+            </ion-col>
+          </ion-row>
+          
+        </ion-item>
+        <ion-item class="content_item" lines="none" >
+          <ion-row class="card ion-no-margin">
+            <ion-col size="3" sizeMd="2" class="c_img" > 
+             <ion-img src="./assets/sodas.png"></ion-img>    
+            </ion-col>
+            <ion-col size="6" sizeMd="7" class="ion-text-center c_item"> 
+             <h5>Nombre Producto tacos ejemplo</h5>
+             <ion-button class="remove" >
+               <ion-icon slot="icon-only" name="remove"></ion-icon>
+             </ion-button>  
+              <h5 class="conter_n ion-padding">129</h5>
+             <ion-button class="add" >
+               <ion-icon slot="icon-only" name="add"></ion-icon>
+             </ion-button>  
+            </ion-col>
+
+            <ion-col size="3" sizeMd="3" >
+              <div class="ion-text-end " >
+                <ion-button  class="delete" fill="clear" >
+                  <ion-icon slot="icon-only"  name="close" ></ion-icon>
+                </ion-button>  
+              </div>
+              <div class="ion-text-left" >
+               <h5 class="c_subtotal">$12345</h5>
+              </div>
+             
+            </ion-col>
+          </ion-row>
+          
+        </ion-item>
+
+
       </ion-list>
    
    
     </ion-col>
+
+
+     
+
+
     <ion-col size="12"  sizeMd="4"  >
-     <ion-card class="c_total ion-padding-top ion-padding-bottom">
-       <h3 class="ion-padding-start">TOTAL</h3>
+     <ion-card class="c_total ion-padding-top ion-padding-bottom ">
+       <h2 class="ion-padding-start">TOTAL</h2>
        <ion-grid >
           <ion-row>
-            <ion-col size="6">Total productos</ion-col>
-            <ion-col size="6" class="ion-text-end">1324</ion-col>
+            <ion-col size="6"><h4 class="ion-no-margin">Total de productos</h4></ion-col>
+            <ion-col size="6" class="ion-text-end"><h5 class="ion-no-margin">1324</h5></ion-col>
           </ion-row>
           <ion-row>
-            <ion-col size="6" >Envio</ion-col>
-            <ion-col size="6"  class="ion-text-end price">9999.9999</ion-col>
+            <ion-col size="6" ><h4 class="ion-no-margin">Envio</h4></ion-col>
+            <ion-col size="6"  class="ion-text-end price"><h5 class="ion-no-margin">9999.9999</h5></ion-col>
           </ion-row>
+          <hr>
           <ion-row>
-            <ion-col size="6" >Precio Total</ion-col>
-            <ion-col size="6"  class="ion-text-end">QWERTY123456</ion-col>
+            <ion-col size="6"><h4 class="ion-no-margin">Precio Total</h4></ion-col>
+            <ion-col size="6"  class="ion-text-end"><h5 class="ion-no-margin">QWERTY123456</h5> </ion-col>
           </ion-row>
         </ion-grid>
-    
-          <ion-button color="warning" class="ion-margin"  expand="block" >
-            <ion-icon slot="end"   name="add"></ion-icon>
-            Proceder a Pagar
+          <ion-button color="warning" mode="ios" class="ion-margin"  expand="block" >
+             <ion-icon slot="end"  name="arrow-forward"></ion-icon>
+             <h5 class="ion-no-margin">Proceder a Pagar</h5> 
           </ion-button>
      </ion-card>
     </ion-col>
