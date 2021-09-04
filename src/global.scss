@@ -67,15 +67,15 @@ ion-content{
     --ion-background-color: #FBFBFB!important;
   }
   .title { 
-          font-size: 35px;
+          font-size: 30px;
           font-weight: 600;
           margin-bottom: 15px;
-          color: var(--ion-color-primary);
+          color: var(--ion-color-dark);
           }
   ion-card, .card{
     border-radius: 15px;
     background: #ffffff;
-    box-shadow:  6px 6px 18px #e6e6e6,
+    box-shadow:  6px 6px 18px #f0f0f0,
              -6px -6px 18px #ffffff;
   }
   .border{ 

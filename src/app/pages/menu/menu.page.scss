@@ -1,7 +1,5 @@
 
 // card styles
-
-
 ion-card{
   border-radius: 25px;
 }
@@ -9,17 +7,22 @@ ion-card{
 
 .title-store {
   color: var(--ion-color-primary);
-  font-weight: 600;
-  font-size: 25px;
+  font-weight: 500;
+  font-size: 40px;
 }
  .direction {
-  font-size: 20px!important; 
+  font-size: 25px!important; 
+  color: var(--ion-color-primary);
  }
  @media (max-width: 765px ) {
   .title-store {
-    font-size: 20px;
+    font-size: 30px;
   }
    .direction {
-    font-size: 15px!important; 
+    font-size: 16px!important; 
    } 
  }
+ ion-icon {
+  padding-right: 5px;
+  color: rgb(66, 66, 66);
+}

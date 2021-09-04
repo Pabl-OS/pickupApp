@@ -1,9 +1,108 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>subcategory</ion-title>
-  </ion-toolbar>
-</ion-header>
+<app-header></app-header>
 
-<ion-content>
+<ion-content class="">
+    
+  <ion-grid fixed class="ion-no-padding ion-padding-top">
+   <h1 class="ion-padding-start ion-no-margin title">Subcategoria </h1>
+   <ion-row>
+       <ion-col  size="12" sizeMd="6" sizeLg="4">
+           <ion-card >
+               <ion-card-header>
+                 <h3 class="ion-text-center ion-no-margin">Nombre Producto</h3>
+              </ion-card-header>
+              <ion-card-content>
+                     <ion-grid fixed>
+                         <ion-row>
+                             <ion-col size="4"><img src="./../../../assets/sodas.png" alt="" srcset=""></ion-col>
+                             <ion-col size="6" >
+                                <p class="ion-text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            
+                             
+ 
+                                     <ion-button class="remove" >
+                                       <ion-icon slot="icon-only" name="remove"></ion-icon>
+                                     </ion-button>  
+                                      <h5 class="conter_n ion-padding">129</h5>
+                                     <ion-button class="add" >
+                                       <ion-icon slot="icon-only" name="add"></ion-icon>
+                                     </ion-button>  
+                                
+                             
+        
+                            
+                            
+                            </ion-col>
+                         </ion-row>
+                     </ion-grid>
+                    <ion-button  expand="block" fill="clear" class="btn-add" shape="round">
+                        Agregar 1 al pedido $100
+                    </ion-button>
+              </ion-card-content>
 
+
+
+           </ion-card>
+       </ion-col>
+       
+       <ion-col  size="12" sizeMd="6" sizeLg="4">
+           <ion-card >
+               <ion-card-header>
+                   <ion-row>
+                       <ion-col size="6" class="  store-title">
+                          <h5 class="ion-no-margin">TACOS LECHON</h5>
+                       </ion-col>
+                       <ion-col size="6" class="status ion-text-end">
+                           <h6>Pendiente de recoleccion</h6>
+                             <h5>00.00.0000</h5>
+                       </ion-col>
+                   </ion-row>
+              </ion-card-header>
+              <ion-card-content class="ion-text-center">
+                  <h4 class="ion-margin-bottom">1234</h4>
+                  <h5 class="ion-margin-bottom">$1245</h5> 
+                  <h6>QWERTY123456789</h6> 
+              </ion-card-content>
+              <div class="ion-text-center ion-padding" >
+                  <ion-button  shape="round" class="btn-cancel"    mode="ios" >Cancelar</ion-button>
+                   <ion-button  shape="round"   mode="ios" >Detalle Compra</ion-button>
+              </div>
+           </ion-card>
+       </ion-col>
+       
+       
+       <ion-col  size="12" sizeMd="6" sizeLg="4">
+           <ion-card >
+               <ion-card-header>
+                   <ion-row>
+                       <ion-col size="6" class="  store-title">
+                          <h5 class="ion-no-margin">ESTABLECIMIENTO</h5>
+                       </ion-col>
+                       <ion-col size="6" class="status ion-text-end">
+                           <h6>Pendiente de recoleccion</h6>
+                             <h5>00.00.0000</h5>
+                       </ion-col>
+                   </ion-row>
+              </ion-card-header>
+              <ion-card-content class="ion-text-center">
+                  <h4 class="ion-margin-bottom">1234</h4>
+                  <h5 class="ion-margin-bottom">$1245</h5> 
+                  <h6>QWERTY123456789</h6> 
+              </ion-card-content>
+              <div class="ion-text-center ion-padding" >
+                  <ion-button  shape="round" class="btn-cancel"    mode="ios" >Cancelar</ion-button>
+                   <ion-button  shape="round"   mode="ios" >Detalle Compra</ion-button>
+              </div>
+           </ion-card>
+       </ion-col>
+       
+       
+       
+       
+    
+    
+    
+    
+    
+   </ion-row>
+</ion-grid>
 </ion-content>

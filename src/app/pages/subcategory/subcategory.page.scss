@@ -1,0 +1,26 @@
+.btn-add {
+    background-color: rgb(231, 231, 231);
+}
+
+.add, .remove {
+    --border-radius: 150px;
+    --background:rgb(245, 245, 245);
+    color: rgb(42, 42, 42);
+    height: 45px!important;
+    width: 45px!important;
+    font-size: 7px;
+    border: none !important;
+    margin: none;
+}
+.conter_n{
+    display: inline;
+    font-weight: 600;
+    font-size: 25px!important;
+}
+
+.c_item{
+    h5{
+        font-size:20px;
+        color: #525252;
+    }
+}

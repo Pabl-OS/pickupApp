@@ -2,8 +2,14 @@
 
 
 <ion-content class="ion-padding">
-  <div class="ion-padding-start">
-  </div>
+  
+
+  <section class="ion-padding">
+    <h1 class="ion-no-margin title">Local o establecimiento </h1>
+    <span class="direction">direccion del lugar o establecimiento...</span>
+  </section>
+
+
   <ion-slides pager="true" [options]="slideOpts">
     <ion-slide> 
       <ion-img src="./assets/delivery.jpg"></ion-img>
@@ -16,16 +22,18 @@
     </ion-slide>
   </ion-slides>
   
-  <section class="ion-padding">
-    <h2 class="ion-no-margin title-store">LOCAL O ESTABLECIMIENTO </h2>
-    <span class="direction ">direccion del lugar o establecimiento...</span>
-  </section>
+
+  <ion-item >
+    <ion-input clearInput  type="text" placeholder="Buscar por categoria" mode="md">
+      <ion-icon name="search"  slot="start" ></ion-icon>
+    </ion-input>
+  </ion-item>
   
-  <ion-grid >
+  <ion-grid class="ion-no-margin">
 
     <ion-row class="ion-no-padding ion-no-margin">
       <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3" class="ion-no-padding ion-no-margin">
-        <ion-card class="ion-padding" [routerLink]="['/cart']"  >
+        <ion-card class="ion-padding"   >
           <ion-card-header  class="ion-no-padding">
             <ion-card-title class="ion-align-items-center">
               <h5 class="ion-text-center" > DULCES </h5>
@@ -65,11 +73,10 @@
       </ion-col>
    
       <ion-col  size="6" sizeMd="6" sizeLg="3" sizeXl="3" class="ion-no-padding ion-no-margin">
-        <ion-card class="ion-padding">
+        <ion-card class="ion-padding" [routerLink]="['/subcategory']" >
           <ion-card-header class="ion-no-padding">
             <ion-card-title class="ion-align-items-center">
               <h5 class="ion-text-center" > PASTELES </h5>
-            
             </ion-card-title>
           </ion-card-header>
           <ion-card-content>

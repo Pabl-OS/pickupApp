@@ -19,16 +19,19 @@
 .delete{
     --border-radius: 150px;
     height: 45px!important;
+    font-size: 7px;
     width: 45px!important;
     color: rgb(209, 65, 65) !important;
 }
 
 .add, .remove {
     --border-radius: 150px;
-    --background:rgb(240, 240, 240);
+    --background:rgb(245, 245, 245);
     color: rgb(42, 42, 42);
     height: 45px!important;
     width: 45px!important;
+    font-size: 7px;
+    border: none !important;
     margin: none;
 }
 

@@ -5,10 +5,10 @@
         <ion-icon name="menu"></ion-icon>
         </ion-menu-button>
     </ion-buttons>   
-    <ion-title class="ion-text-center">Demo</ion-title>
+    <!-- <ion-title class="ion-text-center">Demo</ion-title> -->
       
     <ion-buttons class="ion-no-margin ion-no-border" slot="end">
-      <ion-buttons slot="end" >
+      <ion-buttons slot="end" [routerLink]="['/cart']">
         <ion-icon slot="icon-only" name="cart"></ion-icon>
         <ion-badge color="danger"  >3</ion-badge></ion-buttons>
     </ion-buttons>

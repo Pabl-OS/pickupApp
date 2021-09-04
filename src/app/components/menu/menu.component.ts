@@ -23,12 +23,12 @@ export class MenuComponent implements OnInit {
        {
        title : "Acerda de" ,
        path : "/about",
-       icon:"heart"
+       icon:"help"
        },
        {
        title : "Ajustes" ,
-       path : "/about",
-       icon:"heart"
+       path : "/modal",
+       icon:"settings"
        }
        
      
